@@ -50,6 +50,7 @@ app.use((req, res, next) => {
     next()
 })
 
+
 app.use(express.static('public'))
 app.use(methodOverride('_method'))
 app.use(express.json())
